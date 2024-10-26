@@ -24,7 +24,7 @@ namespace CapaNegocio
 
             if (obj.DNI == "")
             {
-                Mensaje += "Es necesario el DNI del Cliente\n";
+                Mensaje += "EEs necesario el DNI del Cliente\n";
             }
 
             if (obj.NombreCompleto == "")
