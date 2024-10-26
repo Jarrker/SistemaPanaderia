@@ -1,14 +1,10 @@
 ﻿using CapaNegocio;
 using CapaPresentacion.Modales;
 using CapaPresentacion.Utilidades;
+using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaPresentacion
@@ -79,6 +75,46 @@ namespace CapaPresentacion
         private void dgvData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private async void btnCrearVenta_Click(object sender, EventArgs e)
+        {
+            var venta = new
+            {
+                TipoDocumento = ((OpcionCombo)cboTipoDocumento.SelectedItem).Valor,
+                DNICliente = txtDNI.Text,
+                NombreCliente = txtNombreCliente.Text,
+                FechaVenta = DateTime.Now,
+                TotalPagar = decimal.Parse(txtTotalPagar.Text),
+                Productos = new[]
+                {
+                    new {
+                        IdProducto = int.Parse(txtCodProducto.Text),
+                        Cantidad = int.Parse(txtCantidad.Text),
+                        Precio = decimal.Parse(txtPrecio.Text)
+                    }
+                }
+            };
+
+            var jsonRequest = JsonConvert.SerializeObject(venta);
+            var apiUrl = "https://apisunat.com/671d79e5e0eb860015f3efde"; 
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + "671d79e5e0eb860015f3efde"); 
+                var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(apiUrl, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseBody = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show("Venta registrada: " + responseBody);
+                }
+                else
+                {
+                    MessageBox.Show("Error al registrar la venta: " + response.StatusCode);
+                }
+            }
         }
     }
 }
