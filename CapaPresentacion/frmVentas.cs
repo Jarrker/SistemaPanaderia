@@ -1,4 +1,5 @@
-﻿using CapaPresentacion.Modales;
+﻿using CapaNegocio;
+using CapaPresentacion.Modales;
 using CapaPresentacion.Utilidades;
 using System;
 using System.Collections.Generic;
@@ -51,7 +52,6 @@ namespace CapaPresentacion
                 {
                     txtDNI.Select();
                 }
-
             }
         }
 
@@ -61,12 +61,12 @@ namespace CapaPresentacion
             {
                 var result = modal.ShowDialog();
 
-                if (result == DialogResult.OK)
+                if (result == DialogResult.OK && modal._Producto != null)
                 {
-                    txtIdProducto.Text = modal._Producto.IdProducto.ToString();
+                    txtCodProducto.Text = modal._Producto.IdProducto.ToString();
                     txtProducto.Text = modal._Producto.Nombre;
-                    //txtPrecio.Text = modal._Producto.Precio.ToString("0.00");
-                    //txtStock.Text = modal._Producto.Stock.ToString();
+                    txtPrecio.Text = modal._Producto.PrecioUnidad.ToString("0.00");
+                    txtStock.Text = modal._Producto.Cantidad.ToString();
                     txtCantidad.Select();
                 }
                 else
@@ -74,6 +74,11 @@ namespace CapaPresentacion
                     txtCodProducto.Select();
                 }
             }
+        }
+
+        private void dgvData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

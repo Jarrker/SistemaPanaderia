@@ -12,7 +12,10 @@ namespace CapaNegocio
     {
         private CD_Producto objcd_Producto = new CD_Producto();
 
+        public List<Producto> Listar()
+        {
+            return objcd_Producto.Listar();
+        }
 
-        
     }
 }
