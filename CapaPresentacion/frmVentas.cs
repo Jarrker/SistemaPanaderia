@@ -3,6 +3,7 @@ using CapaPresentacion.Modales;
 using CapaPresentacion.Utilidades;
 using Newtonsoft.Json;
 using System;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Windows.Forms;
@@ -71,6 +72,7 @@ namespace CapaPresentacion
                 }
             }
         }
+
         private void btnAgregarVenta_Click(object sender, EventArgs e)
         {
             // Validar que se hayan ingresado todos los datos necesarios
@@ -105,18 +107,16 @@ namespace CapaPresentacion
             LimpiarCamposProducto();
         }
 
-
         private void ActualizarTotal()
         {
             double total = 0;
             foreach (DataGridViewRow row in dgvData.Rows)
             {
-                // Acceder al valor de la columna "SubTotal" por su nombre exacto
+                // Asegúrate de que se esté accediendo a la columna "SubTotal" correctamente
                 total += Convert.ToDouble(row.Cells["SubTotal"].Value);
             }
             txtTotalPagar.Text = total.ToString("0.00");
         }
-
 
         private void LimpiarCamposProducto()
         {
@@ -124,7 +124,7 @@ namespace CapaPresentacion
             txtProducto.Text = "";
             txtPrecio.Text = "0.00";
             txtStock.Text = "0";
-            txtCantidad.Text = "1"; // Reiniciar cantidad a 1 o al valor predeterminado que desees
+            txtCantidad.Text = "1";
         }
 
         private void txtPagocon_TextChanged(object sender, EventArgs e)
@@ -141,52 +141,130 @@ namespace CapaPresentacion
             }
         }
 
-        private async void btnCrearVenta_Click(object sender, EventArgs e)
+        private async void btnCrearVenta_Click_1(object sender, EventArgs e)
         {
-            // Verificar que hay productos en el DataGridView
             if (dgvData.Rows.Count == 0)
             {
                 MessageBox.Show("No hay productos en la venta. Agrega al menos un producto.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Crear la estructura de la venta y enviarla a la API (o base de datos)
-            var venta = new
+            var data = new
             {
-                TipoDocumento = ((OpcionCombo)cboTipoDocumento.SelectedItem).Valor,
-                DNICliente = txtDNI.Text,
-                NombreCliente = txtNombreCliente.Text,
-                FechaVenta = DateTime.Now,
-                TotalPagar = decimal.Parse(txtTotalPagar.Text),
-                Productos = new[]
+                empresa = new
                 {
-                    new {
-                        IdProducto = int.Parse(txtCodProducto.Text),
-                        Cantidad = int.Parse(txtCantidad.Text),
-                        Precio = decimal.Parse(txtPrecio.Text)
-                    }
-                }
+                    ruc = "20604051984",
+                    razon_social = "FACTURACION ELECTRONICA MONSTRUO E.I.R.L.",
+                    nombre_comercial = "FACTURACION INTEGRAL",
+                    domicilio_fiscal = "AV. LA MOLINA NRO. 570",
+                    ubigeo = "150114",
+                    urbanizacion = "RESIDENCIAL MONTERRICO",
+                    distrito = "LA MOLINA",
+                    provincia = "LIMA",
+                    departamento = "LIMA",
+                    modo = "0",
+                    usu_secundario_produccion_user = "MODDATOS",
+                    usu_secundario_produccion_password = "MODDATOS"
+                },
+                cliente = new
+                {
+                    razon_social_nombres = txtNombreCliente.Text,
+                    numero_documento = txtDNI.Text,
+                    codigo_tipo_entidad = cboTipoDocumento.SelectedItem.ToString() == "Factura" ? "6" : "1",
+                    cliente_direccion = "Dirección del cliente aquí"
+                },
+                venta = new
+                {
+                    serie = cboTipoDocumento.SelectedItem.ToString() == "Factura" ? "FF03" : "BB01",
+                    numero = "53953",
+                    fecha_emision = DateTime.Now.ToString("yyyy-MM-dd"),
+                    hora_emision = DateTime.Now.ToString("HH:mm:ss"),
+                    fecha_vencimiento = "",
+                    moneda_id = "2",
+                    forma_pago_id = "1",
+                    total_gravada = (Convert.ToDecimal(txtTotalPagar.Text) / 1.18m).ToString("F2", System.Globalization.CultureInfo.InvariantCulture),
+                    total_igv = (Convert.ToDecimal(txtTotalPagar.Text) - (Convert.ToDecimal(txtTotalPagar.Text) / 1.18m)).ToString("F2", System.Globalization.CultureInfo.InvariantCulture),
+                    total_exonerada = "",
+                    total_inafecta = "",
+                    tipo_documento_codigo = ((OpcionCombo)cboTipoDocumento.SelectedItem).Valor == "Boleta" ? "03" : "01",
+                    nota = "notas o comentarios aquí",
+                    descuento_global = "0"
+                },
+                items = dgvData.Rows.Cast<DataGridViewRow>().Select(row => new
+                {
+                    producto = row.Cells["Producto"].Value.ToString(),
+                    cantidad = row.Cells["Cantidad"].Value.ToString(),
+                    precio_base = Convert.ToDecimal(row.Cells["Precio"].Value).ToString("F2", System.Globalization.CultureInfo.InvariantCulture),
+                    codigo_sunat = "-",
+                    codigo_producto = row.Cells["IdProducto"].Value.ToString(),
+                    codigo_unidad = "NIU",
+                    tipo_igv_codigo = "10"
+                }).ToList()
             };
 
-            var jsonRequest = JsonConvert.SerializeObject(venta);
-            var apiUrl = "https://apisunat.com/671d79e5e0eb860015f3efde";
-
+            var jsonRequest = JsonConvert.SerializeObject(data);
+            var apiUrl = "https://facturaciondirecta.com/API_SUNAT/post.php";
             using (var client = new HttpClient())
             {
-                client.DefaultRequestHeaders.Add("Authorization", "Bearer " + "671d79e5e0eb860015f3efde");
                 var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
                 var response = await client.PostAsync(apiUrl, content);
 
                 if (response.IsSuccessStatusCode)
                 {
                     var responseBody = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show("Venta registrada: " + responseBody);
+
+                    int jsonEndIndex = responseBody.LastIndexOf('}');
+                    if (jsonEndIndex >= 0)
+                    {
+                        responseBody = responseBody.Substring(0, jsonEndIndex + 1);
+                    }
+
+                    try
+                    {
+                        var jsonResponse = JsonConvert.DeserializeObject<dynamic>(responseBody);
+
+                        // Asignar enlaces a los LinkLabels
+                        LinkLabelXml.Text = "XML";
+                        LinkLabelXml.Links.Clear();
+                        LinkLabelXml.Links.Add(0, LinkLabelXml.Text.Length, jsonResponse.data.ruta_xml.ToString());
+
+                        LinkLabelCdr.Text = "CDR";
+                        LinkLabelCdr.Links.Clear();
+                        LinkLabelCdr.Links.Add(0, LinkLabelCdr.Text.Length, jsonResponse.data.ruta_cdr.ToString());
+
+                        LinkLabelPdf.Text = "PDF";
+                        LinkLabelPdf.Links.Clear();
+                        LinkLabelPdf.Links.Add(0, LinkLabelPdf.Text.Length, jsonResponse.data.ruta_pdf.ToString());
+
+                        MessageBox.Show("Enlaces generados correctamente. Haga clic en el enlace para abrir.", "Enlaces de documentos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (JsonException jsonEx)
+                    {
+                        MessageBox.Show("Error al procesar la respuesta JSON: " + jsonEx.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Error al registrar la venta: " + response.StatusCode);
+                    var error = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show("Error al registrar la venta: " + error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
+
+        private void LinkLabelXml_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(e.Link.LinkData.ToString()) { UseShellExecute = true });
+        }
+
+        private void LinkLabelCdr_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(e.Link.LinkData.ToString()) { UseShellExecute = true });
+        }
+
+        private void LinkLabelPdf_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(e.Link.LinkData.ToString()) { UseShellExecute = true });
+        }
+
     }
 }
