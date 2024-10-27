@@ -50,7 +50,6 @@ namespace CapaPresentacion.Modales
 
             if (iRow >= 0 && iColum > 0)
             {
-
                 _Proveedor = new Proveedor()
                 {
                     IdProveedor = Convert.ToInt32(dgvData.Rows[iRow].Cells["Id"].Value.ToString()),
