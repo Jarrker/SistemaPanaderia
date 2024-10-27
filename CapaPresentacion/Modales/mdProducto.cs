@@ -20,7 +20,10 @@ namespace CapaPresentacion.Modales
         public mdProducto()
         {
             InitializeComponent();
+            dgvData.CellDoubleClick += dgvData_CellDoubleClick; // Vincula el evento CellDoubleClick
         }
+
+
 
         private void mdProducto_Load(object sender, EventArgs e)
         {
@@ -36,6 +39,7 @@ namespace CapaPresentacion.Modales
             cboBusqueda.SelectedIndex = 0;
 
             List<Producto> lista = new CN_Producto().Listar();
+
             foreach (Producto item in lista)
             {
                 dgvData.Rows.Add(new object[] { item.IdProducto, item.Nombre, item.PrecioUnidad, item.Cantidad, item.Vencimiento });
@@ -44,23 +48,31 @@ namespace CapaPresentacion.Modales
 
         private void dgvData_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            int iRow = e.RowIndex; 
-            int iColum = e.ColumnIndex;
+            int iRow = e.RowIndex;
 
-            if (iRow >= 0 && iColum >= 0) 
+            if (iRow >= 0) // Verifica si se ha hecho clic en una fila válida
             {
-                _Producto = new Producto()
+                try
                 {
-                    IdProducto = Convert.ToInt32(dgvData.Rows[iRow].Cells["IdProducto"].Value),
-                    Nombre = dgvData.Rows[iRow].Cells["Nombre"].Value.ToString(),
-                    PrecioUnidad = Convert.ToDouble(dgvData.Rows[iRow].Cells["PrecioUnidad"].Value),
-                    Cantidad = Convert.ToInt32(dgvData.Rows[iRow].Cells["Cantidad"].Value)
-                };
+                    _Producto = new Producto()
+                    {
+                        IdProducto = Convert.ToInt32(dgvData.Rows[iRow].Cells[0].Value), // IdProducto
+                        Nombre = dgvData.Rows[iRow].Cells[1].Value.ToString(), // Nombre
+                        PrecioUnidad = Convert.ToDouble(dgvData.Rows[iRow].Cells[2].Value), // PrecioUnidad
+                        Cantidad = Convert.ToInt32(dgvData.Rows[iRow].Cells[3].Value), // Cantidad
+                        Vencimiento = Convert.ToDateTime(dgvData.Rows[iRow].Cells[4].Value) // Vencimiento
+                    };
 
-                this.DialogResult = DialogResult.OK;
-                this.Close();
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al seleccionar el producto: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
+
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
