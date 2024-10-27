@@ -8,6 +8,7 @@ namespace CapaEntidad
 {
     public class Producto
     {
+        public String Codigo { get; set; }
         public int IdProducto { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
