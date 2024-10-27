@@ -1,77 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\",
+  "WorkspaceRootPath": "D:\\Panaderia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ingenieria\\source\\repos\\sistemapanaderia\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\ingenieria\\source\\repos\\sistemapanaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D75539E9-664E-4596-9003-4C130A40D791}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75539E9-664E-4596-9003-4C130A40D791}|CapaEntidad\\CapaEntidad.csproj|D:\\Panaderia\\capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D75539E9-664E-4596-9003-4C130A40D791}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|D:\\Panaderia\\capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capadatos\\cd_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|D:\\Panaderia\\capadatos\\cd_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|D:\\Panaderia\\capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|D:\\Panaderia\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|D:\\Panaderia\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|D:\\Panaderia\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -103,23 +107,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmProductos.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmProductos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProductos.cs",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmProductos.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T02:50:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmUsuarios.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmUsuarios.cs",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmUsuarios.cs",
               "RelativeToolTip": "CapaPresentacion\\frmUsuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAACAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T00:45:34.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "frmVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmVentas.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmVentas.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaPresentacion\\frmVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T23:06:51.303Z",
@@ -128,128 +145,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:52:49.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmReporteVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmReporteVentas.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmReporteVentas.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmReporteVentas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmReporteVentas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:06:58.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "frmVentas.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmVentas.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmVentas.cs",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs",
               "RelativeToolTip": "CapaPresentacion\\frmVentas.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAmwF8AAAARAAAA",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwF8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T23:09:28.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "frmReporteCompras.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmReporteCompras.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmReporteCompras.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmReporteCompras.cs",
               "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmReporteCompras.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmReporteCompras.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:06:59.145Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Program.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Program.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Program.cs",
-              "RelativeToolTip": "CapaPresentacion\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T22:52:44.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\App.config",
-              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\App.config",
-              "RelativeToolTip": "CapaPresentacion\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-26T22:58:48.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T18:50:42.011Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-26T23:06:59.145Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\Program.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Program.cs",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\Program.cs",
+              "RelativeToolTip": "CapaPresentacion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:52:44.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\App.config",
+              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\App.config",
+              "RelativeToolTip": "CapaPresentacion\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-26T22:58:48.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:50:42.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Inicio.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\Inicio.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\Inicio.cs",
               "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T22:59:53.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
+              "Title": "frmProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmProductos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProductos.cs",
+              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T23:07:00.846Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmReporteVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmReporteVentas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmReporteVentas.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmReporteVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T23:06:58.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:52:49.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "frmProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmProveedores.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedores.cs",
               "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmProveedores.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T23:06:59.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProductos.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmProductos.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T23:07:00.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CD_Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Producto.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaDatos\\CD_Producto.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Producto.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Producto.cs",
+              "ToolTip": "D:\\Panaderia\\CapaDatos\\CD_Producto.cs",
               "RelativeToolTip": "CapaDatos\\CD_Producto.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaEntidad\\Venta.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaEntidad\\Venta.cs",
               "RelativeDocumentMoniker": "CapaEntidad\\Venta.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaEntidad\\Venta.cs",
+              "ToolTip": "D:\\Panaderia\\CapaEntidad\\Venta.cs",
               "RelativeToolTip": "CapaEntidad\\Venta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -269,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CD_Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Ventas.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaDatos\\CD_Ventas.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Ventas.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Ventas.cs",
+              "ToolTip": "D:\\Panaderia\\CapaDatos\\CD_Ventas.cs",
               "RelativeToolTip": "CapaDatos\\CD_Ventas.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CD_Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Cliente.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaDatos\\CD_Cliente.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Cliente.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Cliente.cs",
+              "ToolTip": "D:\\Panaderia\\CapaDatos\\CD_Cliente.cs",
               "RelativeToolTip": "CapaDatos\\CD_Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -293,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Usuario.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaDatos\\CD_Usuario.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Usuario.cs",
+              "ToolTip": "D:\\Panaderia\\CapaDatos\\CD_Usuario.cs",
               "RelativeToolTip": "CapaDatos\\CD_Usuario.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\Conexion.cs",
+              "DocumentMoniker": "D:\\Panaderia\\CapaDatos\\Conexion.cs",
               "RelativeDocumentMoniker": "CapaDatos\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\source\\repos\\SistemaPanaderia\\CapaDatos\\Conexion.cs",
+              "ToolTip": "D:\\Panaderia\\CapaDatos\\Conexion.cs",
               "RelativeToolTip": "CapaDatos\\Conexion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
