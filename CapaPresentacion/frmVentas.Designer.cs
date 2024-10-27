@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtIdCliente = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -153,7 +153,7 @@
             this.bntBuscarProducto.Location = new System.Drawing.Point(155, 46);
             this.bntBuscarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.bntBuscarProducto.Name = "bntBuscarProducto";
-            this.bntBuscarProducto.Size = new System.Drawing.Size(27, 29);
+            this.bntBuscarProducto.Size = new System.Drawing.Size(39, 29);
             this.bntBuscarProducto.TabIndex = 38;
             this.bntBuscarProducto.UseVisualStyleBackColor = false;
             this.bntBuscarProducto.Click += new System.EventHandler(this.bntBuscarProducto_Click);
@@ -375,7 +375,7 @@
             this.btnBuscarCliente.Location = new System.Drawing.Point(153, 38);
             this.btnBuscarCliente.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
-            this.btnBuscarCliente.Size = new System.Drawing.Size(27, 29);
+            this.btnBuscarCliente.Size = new System.Drawing.Size(37, 29);
             this.btnBuscarCliente.TabIndex = 26;
             this.btnBuscarCliente.UseVisualStyleBackColor = false;
             this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
@@ -384,15 +384,15 @@
             // 
             this.dgvData.AllowUserToAddRows = false;
             this.dgvData.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdProducto,
@@ -406,11 +406,11 @@
             this.dgvData.Name = "dgvData";
             this.dgvData.ReadOnly = true;
             this.dgvData.RowHeadersWidth = 51;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvData.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvData.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvData.RowTemplate.Height = 28;
-            this.dgvData.Size = new System.Drawing.Size(715, 181);
+            this.dgvData.Size = new System.Drawing.Size(715, 256);
             this.dgvData.TabIndex = 224;
             // 
             // IdProducto
@@ -610,34 +610,37 @@
             // LinkLabelXml
             // 
             this.LinkLabelXml.AutoSize = true;
-            this.LinkLabelXml.Location = new System.Drawing.Point(44, 543);
+            this.LinkLabelXml.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LinkLabelXml.Location = new System.Drawing.Point(70, 560);
             this.LinkLabelXml.Name = "LinkLabelXml";
-            this.LinkLabelXml.Size = new System.Drawing.Size(55, 13);
+            this.LinkLabelXml.Size = new System.Drawing.Size(56, 25);
             this.LinkLabelXml.TabIndex = 233;
             this.LinkLabelXml.TabStop = true;
-            this.LinkLabelXml.Text = "linkLabel1";
+            this.LinkLabelXml.Text = "XML";
             this.LinkLabelXml.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelXml_LinkClicked_1);
             // 
             // LinkLabelCdr
             // 
             this.LinkLabelCdr.AutoSize = true;
-            this.LinkLabelCdr.Location = new System.Drawing.Point(340, 522);
+            this.LinkLabelCdr.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LinkLabelCdr.Location = new System.Drawing.Point(371, 560);
             this.LinkLabelCdr.Name = "LinkLabelCdr";
-            this.LinkLabelCdr.Size = new System.Drawing.Size(55, 13);
+            this.LinkLabelCdr.Size = new System.Drawing.Size(57, 25);
             this.LinkLabelCdr.TabIndex = 234;
             this.LinkLabelCdr.TabStop = true;
-            this.LinkLabelCdr.Text = "linkLabel1";
+            this.LinkLabelCdr.Text = "DCR";
             this.LinkLabelCdr.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelCdr_LinkClicked_1);
             // 
             // LinkLabelPdf
             // 
             this.LinkLabelPdf.AutoSize = true;
-            this.LinkLabelPdf.Location = new System.Drawing.Point(496, 526);
+            this.LinkLabelPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LinkLabelPdf.Location = new System.Drawing.Point(647, 560);
             this.LinkLabelPdf.Name = "LinkLabelPdf";
-            this.LinkLabelPdf.Size = new System.Drawing.Size(55, 13);
+            this.LinkLabelPdf.Size = new System.Drawing.Size(54, 25);
             this.LinkLabelPdf.TabIndex = 235;
             this.LinkLabelPdf.TabStop = true;
-            this.LinkLabelPdf.Text = "linkLabel2";
+            this.LinkLabelPdf.Text = "PDF";
             this.LinkLabelPdf.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabelPdf_LinkClicked_1);
             // 
             // frmVentas
