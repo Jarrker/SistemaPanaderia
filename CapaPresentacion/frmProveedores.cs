@@ -249,7 +249,7 @@ namespace CapaPresentacion
 
                 if (empresa != null)
                 {
-                    txtRazonSocial.Text = empresa.nombre ?? "No encontrado";
+                    txtRazonSocial.Text = empresa.razonSocial ?? "No encontrado";
                     txtCiudad.Text = empresa.distrito ?? "No encontrado";
                 }
                 else
@@ -290,7 +290,7 @@ namespace CapaPresentacion
 
         private class Empresa
         {
-            public string nombre { get; set; }
+            public string razonSocial { get; set; }
             public string distrito { get; set; }
         }
     }

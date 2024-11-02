@@ -64,6 +64,7 @@
             this.cboBusqueda = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.txtStatus = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -203,6 +204,7 @@
             this.txtRUC.Name = "txtRUC";
             this.txtRUC.Size = new System.Drawing.Size(204, 20);
             this.txtRUC.TabIndex = 117;
+            this.txtRUC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtRUC_KeyDown);
             // 
             // label5
             // 
@@ -498,11 +500,21 @@
             this.label13.TabIndex = 137;
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // txtStatus
+            // 
+            this.txtStatus.AutoSize = true;
+            this.txtStatus.Location = new System.Drawing.Point(25, 87);
+            this.txtStatus.Name = "txtStatus";
+            this.txtStatus.Size = new System.Drawing.Size(35, 13);
+            this.txtStatus.TabIndex = 143;
+            this.txtStatus.Text = "label6";
+            // 
             // frmProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(941, 503);
+            this.Controls.Add(this.txtStatus);
             this.Controls.Add(this.btnLimpiarBuscador);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
@@ -574,5 +586,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Ciudad;
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.Label txtStatus;
     }
 }

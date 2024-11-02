@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\batu\\source\\repos\\sistemapanaderia\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,45 +58,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmProveedores.cs",
-              "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedores.cs",
-              "ToolTip": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs*",
-              "RelativeToolTip": "CapaPresentacion\\frmProveedores.cs*",
-              "ViewState": "AQIAAAQBAAAAAAAAAAAYwCYBAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "frmProveedores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Batu\\Source\\Repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedores.Designer.cs",
+              "ToolTip": "C:\\Users\\Batu\\Source\\Repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmProveedores.Designer.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAwNYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:56:39.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.cs",
-              "ToolTip": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
-              "RelativeToolTip": "CapaPresentacion\\frmClientes.cs",
-              "ViewState": "AQIAADIBAAAAAAAAAAAYwD4BAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T21:12:46.621Z",
+              "WhenOpened": "2024-11-02T17:52:54.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmClientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Batu\\Source\\Repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.Designer.cs",
+              "ToolTip": "C:\\Users\\Batu\\Source\\Repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmClientes.Designer.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowH8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:51:22.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmProveedores.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedores.cs",
               "ToolTip": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs [Dise\u00F1o]*",
               "RelativeToolTip": "CapaPresentacion\\frmProveedores.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:56:36.826Z",
+              "WhenOpened": "2024-11-02T17:39:57.573Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "frmProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmProveedores.cs",
+              "ToolTip": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmProveedores.cs*",
+              "RelativeToolTip": "CapaPresentacion\\frmProveedores.cs*",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAYwPsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:56:39.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.cs",
+              "ToolTip": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmClientes.cs",
+              "ViewState": "AQIAADkBAAAAAAAAAAAuwD0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:12:46.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmClientes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.cs",
@@ -100,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CD_Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Batu\\source\\repos\\SistemaPanaderia\\CapaDatos\\CD_Cliente.cs",
               "RelativeDocumentMoniker": "CapaDatos\\CD_Cliente.cs",
