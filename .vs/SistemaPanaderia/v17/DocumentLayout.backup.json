@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Panaderia\\",
+  "WorkspaceRootPath": "D:\\VisualStudio\\REPOSITORIOS\\Proyecto_Diars\\SistemaPanaderia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\visualstudio\\repositorios\\proyecto_diars\\sistemapanaderia\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|d:\\panaderia\\capapresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885B6CB7-EC88-4A9B-AABA-E0723EB3E1F5}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|d:\\visualstudio\\repositorios\\proyecto_diars\\sistemapanaderia\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4461C788-6D2E-4255-B351-1CA6D9B2F24E}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,69 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mdProducto.cs",
-              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\Modales\\mdProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Modales\\mdProducto.cs",
-              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\Modales\\mdProducto.cs",
-              "RelativeToolTip": "CapaPresentacion\\Modales\\mdProducto.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmClientes.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\REPOSITORIOS\\Proyecto_Diars\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.cs",
+              "ToolTip": "D:\\VisualStudio\\REPOSITORIOS\\Proyecto_Diars\\SistemaPanaderia\\CapaPresentacion\\frmClientes.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmClientes.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAO4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T09:03:14.822Z",
+              "WhenOpened": "2024-11-01T21:12:46.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "mdProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\Modales\\mdProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Modales\\mdProducto.cs",
-              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\Modales\\mdProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\Modales\\mdProducto.cs [Dise\u00F1o]",
+              "Title": "CD_Cliente.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\REPOSITORIOS\\Proyecto_Diars\\SistemaPanaderia\\CapaDatos\\CD_Cliente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Cliente.cs",
+              "ToolTip": "D:\\VisualStudio\\REPOSITORIOS\\Proyecto_Diars\\SistemaPanaderia\\CapaDatos\\CD_Cliente.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T09:02:55.661Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmVentas.cs",
-              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
-              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs*",
-              "RelativeToolTip": "CapaPresentacion\\frmVentas.cs*",
-              "ViewState": "AgIAAPQAAAAAAAAAAAAkwAcBAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:42:22.784Z",
+              "WhenOpened": "2024-11-01T21:10:01.891Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmVentas.cs",
-              "ToolTip": "D:\\Panaderia\\CapaPresentacion\\frmVentas.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "CapaPresentacion\\frmVentas.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:42:17.46Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
