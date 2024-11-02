@@ -247,3 +247,17 @@ D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaPresentacion\bi
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Encodings.Web.xml
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Json.xml
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaPresentacion\bin\Debug\System.ValueTuple.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Json.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.ValueTuple.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\WebDriver.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.Text.Json.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\System.ValueTuple.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\WebDriver.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaPresentacion\bin\Debug\selenium-manager\windows\selenium-manager.exe

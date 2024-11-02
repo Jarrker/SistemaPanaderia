@@ -132,3 +132,13 @@ D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaDatos\bin\Debug
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaDatos\bin\Debug\System.Text.Json.xml
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaDatos\bin\Debug\System.ValueTuple.xml
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaDatos\bin\Debug\WebDriver.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.Text.Json.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\WebDriver.dll
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.Text.Json.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\System.ValueTuple.xml
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaDatos\bin\Debug\WebDriver.xml

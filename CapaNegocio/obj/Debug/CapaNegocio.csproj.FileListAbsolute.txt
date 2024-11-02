@@ -136,3 +136,6 @@ D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaNegocio\obj\Deb
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
 D:\VisualStudio\REPOSITORIOS\Proyecto_Diars\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\Batu\Source\Repos\SistemaPanaderia\CapaNegocio\bin\Debug\selenium-manager\windows\selenium-manager.exe

@@ -3,18 +3,20 @@ using CapaNegocio;
 using CapaPresentacion.Utilidades;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Net.Http.Headers;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.Json;
 
 namespace CapaPresentacion
 {
     public partial class frmProveedores : Form
     {
+
+        private readonly string apiToken = "apis-token-11329.FpNkJa70KtxsL2k6IKiuRxSqyQYckuWi";
+
         public frmProveedores()
         {
             InitializeComponent();
@@ -225,6 +227,71 @@ namespace CapaPresentacion
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
+        }
+
+        private async void txtRUC_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter) return;
+
+            string ruc = txtRUC.Text;
+            if (string.IsNullOrEmpty(ruc))
+            {
+                MessageBox.Show("Por favor, ingrese un RUC válido.");
+                return;
+            }
+
+            txtRazonSocial.Text = "Consultando...";
+            txtCiudad.Text = "Consultando...";
+
+            try
+            {
+                var empresa = await ObtenerDatosPorRUC(ruc);
+
+                if (empresa != null)
+                {
+                    txtRazonSocial.Text = empresa.nombre ?? "No encontrado";
+                    txtCiudad.Text = empresa.distrito ?? "No encontrado";
+                }
+                else
+                {
+                    txtRazonSocial.Text = "No se encontró el RUC.";
+                    txtCiudad.Text = "No se encontró el RUC.";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al consultar el RUC: {ex.Message}");
+                txtRazonSocial.Text = string.Empty;
+                txtCiudad.Text = string.Empty;
+            }
+        }
+
+        private async Task<Empresa> ObtenerDatosPorRUC(string ruc)
+        {
+            string apiUrl = $"https://api.apis.net.pe/v2/sunat/ruc?numero={ruc}";
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiToken);
+
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string json = await response.Content.ReadAsStringAsync();
+                    return JsonSerializer.Deserialize<Empresa>(json);
+                }
+                else
+                {
+                    MessageBox.Show("Error al consultar la API.");
+                    return null;
+                }
+            }
+        }
+
+        private class Empresa
+        {
+            public string nombre { get; set; }
+            public string distrito { get; set; }
         }
     }
 }
