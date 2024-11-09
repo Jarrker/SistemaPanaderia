@@ -17,5 +17,68 @@ namespace CapaNegocio
             return objcd_Producto.Listar();
         }
 
+        public int Registrar(Producto obj, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+
+            if (obj.Codigo == "")
+            {
+                Mensaje += "Es necesario el Codigo del Producto\n";
+            }
+
+            if (obj.Nombre == "")
+            {
+                Mensaje += "Es necesario el Nombre del Producto\n";
+            }
+
+            if (obj.Descripcion == "")
+            {
+                Mensaje += "Es necesario la Descripcion del Producton\n";
+            }
+
+            if (Mensaje != string.Empty)
+            {
+                return 0;
+            }
+            else
+            {
+                return objcd_Producto.Registrar(obj, out Mensaje);
+            }
+        }
+
+        public bool Editar(Producto obj, out string Mensaje)
+        {
+            Mensaje = string.Empty;
+
+            if (obj.Codigo == "")
+            {
+                Mensaje += "Es necesario el Codigo del Producto\n";
+            }
+
+            if (obj.Nombre == "")
+            {
+                Mensaje += "Es necesario el Nombre del Producto\n";
+            }
+
+            if (obj.Descripcion == "")
+            {
+                Mensaje += "Es necesario la Descripcion del Producton\n";
+            }
+
+            if (Mensaje != string.Empty)
+            {
+                return false;
+            }
+            else
+            {
+                return objcd_Producto.Editar(obj, out Mensaje);
+            }
+
+        }
+
+        public bool Eliminar(Producto obj, out string Mensaje)
+        {
+            return objcd_Producto.Eliminar(obj, out Mensaje);
+        }
     }
 }

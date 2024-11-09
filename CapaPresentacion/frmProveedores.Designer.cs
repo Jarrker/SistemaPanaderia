@@ -505,9 +505,9 @@
             this.txtStatus.AutoSize = true;
             this.txtStatus.Location = new System.Drawing.Point(25, 87);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(35, 13);
+            this.txtStatus.Size = new System.Drawing.Size(25, 13);
             this.txtStatus.TabIndex = 143;
-            this.txtStatus.Text = "label6";
+            this.txtStatus.Text = "------";
             // 
             // frmProveedores
             // 

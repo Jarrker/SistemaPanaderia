@@ -180,14 +180,14 @@ namespace CapaPresentacion
                     fecha_emision = DateTime.Now.ToString("yyyy-MM-dd"),
                     hora_emision = DateTime.Now.ToString("HH:mm:ss"),
                     fecha_vencimiento = "",
-                    moneda_id = "2",
+                    moneda_id = "1",
                     forma_pago_id = "1",
                     total_gravada = (Convert.ToDecimal(txtTotalPagar.Text) / 1.18m).ToString("F2", System.Globalization.CultureInfo.InvariantCulture),
                     total_igv = (Convert.ToDecimal(txtTotalPagar.Text) - (Convert.ToDecimal(txtTotalPagar.Text) / 1.18m)).ToString("F2", System.Globalization.CultureInfo.InvariantCulture),
                     total_exonerada = "",
                     total_inafecta = "",
                     tipo_documento_codigo = ((OpcionCombo)cboTipoDocumento.SelectedItem).Valor == "Boleta" ? "03" : "01",
-                    nota = "notas o comentarios aquí",
+                    nota = "Los mejores productos panaderos",
                     descuento_global = "0"
                 },
                 items = dgvData.Rows.Cast<DataGridViewRow>().Select(row => new
