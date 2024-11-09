@@ -10,7 +10,9 @@ namespace CapaEntidad
     {
         public int IdPermiso { get; set; }
         public Rol objRol { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public string NombreMenu { get; set; }
         public string FechaRegistro { get; set; }
     }
